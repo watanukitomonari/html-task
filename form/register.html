@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>登録フォーム</title>
+        <meta name="description" content="自己紹介">
+        <link rel="stylesheet" type="text/css" href="register-style.css">
+        <link rel="stylesheet" type="text/css" href="\register-style.css">
+       </head>
+    
+    <body>
+        <form action="#" method="post" enctype="multipart/form-data">
+        <p>必要事項を入力の上、送信ボタンを押してください。</p>
+            
+            ID （メールアドレス）<input type="e-mail" name="user_ID" size="30" placeholder="bijinesu.jp.com"><br>
+            パスワード:<input type="password" name="user_pw" size="30" minlength="8">
+            <label><input type="radio" name="magazine" value="1">パスワードを表示する</label><br>
+            氏名<br>
+            性:<input type="text" name="user_lastname" placeholder="例；盛岡"><br>
+            名:<input type="text" name="user_firstname" placeholder="例；太郎"><br>
+            住所
+            〒<input type="text" name="user_addressnumber" size="8"><br>
+            <input type="text" name="user_address" placeholder="住所" size="30"><br>
+            <input type="text" name="user_building" placeholder="建物名" size="30"><br>
+            電話番号<input type="tel" name="user_tel"><br>
+            学年
+            <select name="Department" required>
+            <option value="">学年を選択してください</option>
+            <option value="情報システム科">情報システム科</option>
+            <option value="高度情報工学科">高度情報工学科</option>
+            <option value="総合システム科">総合システム科</option>
+            <option value="総合デザイン科">総合デザイン科</option>
+            <option value="アニメ漫画コース">アニメ漫画コース</option>
+            <option value="CGクリエイトコース">CGクリエイトコース</option>
+            <option value="建築インテリアコース">建築インテリアコース</option>
+            </select><br>
+            学科
+            <select name="Grade" required>
+            <option value="">学年を選択してください</option>
+            <option value="1年">1年</option>
+            <option value="2年">2年</option>
+            <option value="3年">3年</option>
+            <option value="4年">4年</option>
+            </select><br>
+            お得な情報；クーポン
+            <label><input type="radio" name="gender" value="0">受け取る</label>
+            <label><input type="radio" name="gender" value="1">受け取らない</label><br>
+            ご意見をお聞かせください。<br>
+            <textarea name="multiple" cols="50" rows="10" maxlength="200"></textarea><br>
+                                                                       
+            
+            <button type="reset">入力内容をクリアする</button>
+            <button type="submit">送信</button>
+        </form>
+    </body>
+</html>
