@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>登録フォーム</title>
+    <meta name="description" content="自己紹介">
+    <link rel="stylesheet" type="text/css" href="register-style.css">
+</head>
+
+<body>
+    <form action="#" method="post" enctype="multipart/form-data">
+        <p>必要事項を入力の上、送信ボタンを押してください。</p>
+        <table>
+            <tr>
+                <th>ID <span class="indispensability">必須</span><span>（メールアドレス）</span></th>
+                <td><input type="email" name="user_ID" size="30" placeholder="例:bijinesu.jp.com" required></td>
+            </tr>
+            <tr>
+                <th>パスワード <span class="indispensability">必須</span><span>（英数字8文字以上）</span></th>
+                <td>
+                    <input type="password" name="user_pw" size="30" minlength="8" required>
+                    <label><input type="checkbox" name="magazine" value="1">パスワードを表示する</label>
+                </td>
+            </tr>
+            <tr>
+                <th>氏名<span class="indispensability">必須</span></th> 
+                <td>
+                    <label>性:</label><input type="text" name="user_lastname" placeholder="例:盛岡" required>
+                    <label>名:</label><input type="text" name="user_firstname" placeholder="例:太郎" required>
+                </td>
+            </tr>
+            <tr>
+                <th>住所</th> 
+                <td>
+                    〒<input type="text" name="user_addressnumber" size="8"><br>
+                    <input type="text" name "user_address" placeholder="住所" size="30"><br>
+                    <input type="text" name="user_building" placeholder="建物名" size="30">
+                </td>
+            </tr>
+            <tr>
+                <th>電話番号 <span class="indispensability">必須</span>（ハイフンなし</span>）</th> 
+                <td><input type="tel" name="user_tel" required></td>
+            </tr>
+            <tr>
+                <th>学年・学科 <span class="indispensability">必須</span></th>
+                <td>
+                学年
+                    <select name="Grade" required>
+                        <option value="">学年を選択してください</option>
+                        <option value="1年">1年</option>
+                        <option value="2年">2年</option>
+                        <option value="3年">3年</option>
+                        <option value="4年">4年</option>
+                    </select>
+                学科
+                    <select name="Department" required>
+                        <option value="">学科を選択してください</option>
+                        <option value="情報システム科">情報システム科</option>
+                        <option value="高度情報工学科">高度情報工学科</option>
+                        <option value="総合システム科">総合システム科</option>
+                        <option value="総合デザイン科">総合デザイン科</option>
+                        <option value="アニメ漫画コース">アニメ漫画コース</option>
+                        <option value="CGクリエイトコース">CGクリエイトコース</option>
+                        <option value="建築インテリアコース">建築インテリアコース</option>
+                    </select>
+                    
+                </td>
+            </tr>
+            <tr>
+                <th>お得な情報・クーン <span class="indispensability">必須</span></th>
+                <td>
+                    <label><input type="radio" name="receive" required value="0">受け取る</label>
+                    <label><input type="radio" name="not_receive" required value="1">受け取らない</label>
+                </td>
+            </tr>
+            <tr>
+                <th>ご意見ご要望<span>（200文字以内でご記入ください。）</span></th>
+                <td><textarea name="multiple" cols="50" rows="10" maxlength="200"></textarea></td>
+            </tr>
+        </table>
+
+        <button type="reset">入力内容をクリアする</button>
+        <button type="submit">送信</button>
+    </form>
+</body>
+</html>
