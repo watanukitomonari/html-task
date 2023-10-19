@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.text-litegrean {
+    color: rgb(135, 231, 111);
+}
+
+.text-blue {
+    color: rgb(129, 212, 233);
+}
+
+.bg-orange {
+    background-color: rgb(238, 189, 116);
+}
+span {
+    border: 2px dotted blueviolet;
+}
