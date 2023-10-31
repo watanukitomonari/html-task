@@ -1,0 +1,52 @@
+@charset "utf-8";
+h1{
+    text-align: center; 
+}
+h2{
+    text-align: 90px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.picture {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+    color: rgb(255, 255, 255);
+   
+}
+
+a {
+    display: inline-block; /* ブロック要素に変更 */
+    background-color: black; /* 背景色を黒に設定 */
+    color: white; /* テキスト色を白に設定 */
+    padding: 10px 20px; /* パディングを追加 */
+    text-decoration: none; /* アンダーラインを削除 */
+    border: 1px solid rgb(0, 0, 0); /* ボーダーを追加 */
+    border-radius: 90px; /* 角丸に設定 */
+    
+}
+
+.centered {
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; 
+    background-color: #000;
+}
+
+.item {
+    background-color: rgb(37, 73, 73);
+    width: 25%; /* 幅を33.33%（3つ横に並べるため） */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000; /* ボーダーのスタイル */
+    text-align: center; /* テキストを中央に配置 */
+}  
