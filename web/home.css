@@ -1,0 +1,33 @@
+.nav-list {
+    display: flex;
+    justify-content: space-between; /* すべての要素を等間隔に配置 */
+    list-style: none; /* リストのデフォルトのマーカーを非表示 */
+    padding: 0; /* デフォルトのリストの余白を除去 */
+  }
+
+  .nav-item {
+    border: 2px solid #ADFF2F; /* 黄緑色の枠線 */
+    text-align: left; /* 左寄せ */
+    flex: 1; /* 各要素を均等な幅にする */
+    margin: 0 5px; /* 適切な間隔を追加（必要に応じて調整） */
+    padding: 10px; /* 適切な余白を追加（必要に応じて調整） */
+  }
+
+  .background {
+    background-image: url(img/it_1026.jpg);
+    background-position: center;
+    height: 300px;
+}
+img {
+  width: auto;
+}
+body{
+  color: #ffffff;
+  background-color: rgb(117, 116, 116);
+}
+
+header, footer {
+  background-color: rgb(0, 92, 95);
+  padding: 0.5rem;
+ 
+}

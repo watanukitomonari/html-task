@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+
+img {
+    width: auto;
+}
+
+.background {
+    background-image: url(img/it_1026.jpg);
+    background-position: left;
+    height: 300px;
+}
+
+.logo {
+    width: auto;
+    text-align: left;
+    background-color: rgba(7, 7, 7, 0.26);
+}
+

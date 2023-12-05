@@ -1,0 +1,54 @@
+<body>
+    <form action="#" method="post" enctype="multipart/form-data">
+        氏名:<input type="text" name="user_name" placeholder="森岡 太郎"required><br>
+        メールアドレス:<input type="email" name="user_email"><br>
+        パスワード:<input type="password" name="user_pw"><br>
+        電話番号:<input type="tel" name="uswe_tel"><br>
+        URL:<input type="url" name="hp"><br>
+        検索:<input type="search" name="search_word"><br>
+        数値入力:<input type="number" name="num" min="1" max="9"><br>
+        学校生活に満足していますか？<br>
+        満足していない<input type="range" name="satisfaction">満足している<br>
+        性別:
+        <label><input type="radio" name="gender" value="man" required>男</label>
+        <label><input type="radio" name="gender" value="woman">女</label>
+        <label><input type="radio" name="gender" value="other">その他</label><br>
+        好きな飲み物を選択:
+        <label><input type="checkbox" name="drink" value="tea">お茶</label>
+        <label><input type="checkbox" name="drink" value="water">水</label>
+        <label><input type="checkbox" name="drink" value="soda">炭酸飲料</label>
+        <label><input type="checkbox" name="drink" value="other">その他</label>
+        
+        日付:<input type="date" name="date" value="2023-04-01"><br>
+        時刻:<input type="time" name="time"><br>
+        日時:<input type="datetime-local" name="datetime"><br>
+        <select name="blood_type" required>
+            <option value="">選択してください</option>
+            <option value="A">A型</option>
+            <option value="B">B型</option>
+            <option value="O">O型</option>
+            <option value="AB">AB型</option>
+        </select><br>
+        <textarea name="multiple" cols="50" rows="5"></textarea><br>
+
+        ファイルを複数選択:<input type="faile" name="failes" multiple><br>
+        色の選択:<input type="color" name="color"><br>
+        ご意見をお聞かせください。<br>
+        <input type="text" value="特になし"><br>
+        <input type="text" name="message" size="50"><br>
+        <input type="text" name="maxlength" maxlength="10"><br>
+        <input type="text" name="minlength" minlength="3"><br>
+        <input type="text" name="readonly" size="30" value="編集不可（データは送信される）"readonly><br>
+        <input type="text" name="disabled" size="30" value="編集不可（データは送信されない）"disabled><br>
+        <input type="checkbox" name="ok" required>個人所法の取り扱いに同意する<br>
+        <!--　サーバにデータを送信するためのボタン　-->
+        <button type="submit">送信</button>
+        <!--　フォームの入力をリセットするボタン　-->
+        <button type="reset">リセット</button>
+        <!--　スクリプトを実行する汎用ボタン　-->
+        <button type="button" onclick="alert('「アラートを出す」 スクリプトを実行')">
+        アラート</button>
+        
+
+    </form>
+</body>

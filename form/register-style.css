@@ -1,6 +1,7 @@
 @charset "utf-8";
     
 table {
+    width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
 }
@@ -13,14 +14,14 @@ th, td {
 }
 
 th {
-    background-color: #85109c;
-    color: #fff;
+    background-color: #6af5e9;
+    color: #000000;
     font-weight: bold;
 }
 
 td {
-    background-color: #3e9b6c94;
-    color: #fff;
+    background-color: #92929294;
+    color: #443f3f;
     font-weight: bold;
 }
 .indispensability{

@@ -1,0 +1,21 @@
+
+@charset "utf-8";
+
+.nav-question {
+    list-style: "Q";
+}
+
+.nav-anser {
+    list-style: "A";
+    border: 2px solid #ADFF2F; /* 黄緑色の枠線 */
+    text-align: right; /* 左寄せ */
+    flex: 1; /* 各要素を均等な幅にする */
+    margin: 0 5px; /* 適切な間隔を追加（必要に応じて調整） */
+    padding: 5px; /* 適切な余白を追加（必要に応じて調整） */
+    width: 60%;
+    
+}
+
+body{
+    background-color: blueviolet;
+}

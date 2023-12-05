@@ -1,0 +1,41 @@
+.frame {
+    margin-bottom: 2em;
+    display: flow-root;
+}
+.frame p{
+    line-height: 1.6;
+    letter-spacing: 0.05em;
+}
+.frame:last-child {
+    margin-bottom: 0;
+}
+main {
+    margin: 0 auto;
+}
+.float-left {
+    float: left;      /* 左寄せ */
+    width: 50%;       /* 横幅50% */
+    margin: 0 1rem;    /* 上下のマージンを0、左右のマージンを1rem */
+}
+h1 {
+    margin-top: 0.8rem; /* 上方向のマージンを0.8remに設定 */
+}
+h2 {
+    margin-bottom: 1rem; /* 下方向のマージンを1remに設定 */
+    padding: 0.5rem 0;   /* 上下のパディングを0.5remに設定 */
+    border-top: 2px solid; /* 上側の枠線を2pxの実線に設定 */
+    border-bottom: 2px solid; /* 下側の枠線を2pxの実線に設定 */
+}
+.frame{
+    margin-bottom: 2rem;
+    display: flow-root;
+}
+.float-left {
+    width: 50%;
+    margin: 0 1rem;
+    float: left;
+}
+.frame p{
+    line-height: 1;
+    letter-spacing: 0.05em;
+}

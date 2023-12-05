@@ -8,8 +8,8 @@
     color: rgb(129, 212, 233);
 }
 
-.bg-orange {
-    background-color: rgb(238, 189, 116);
+.bg-black {
+    background-color: rgb(0, 0, 0);
 }
 span {
     border: 2px dotted blueviolet;
