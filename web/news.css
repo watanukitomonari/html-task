@@ -16,6 +16,13 @@ nav {
     background-color: #444;
 }
 
+.nav-item {
+    border: 2px solid #ADFF2F; /* 黄緑色の枠線 */
+    text-align: left; /* 左寄せ */
+    flex: 1; /* 各要素を均等な幅にする */
+    margin: 0 5px; /* 適切な間隔を追加（必要に応じて調整） */
+    padding: 10px; /* 適切な余白を追加（必要に応じて調整） */
+  }
 .menu-list {
     display: flex;
     justify-content: space-around;
