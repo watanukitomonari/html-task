@@ -1,0 +1,10 @@
+word.css
+hover
+
+text-container1クラス内のaに対して、赤と紫の色を設定しホバー時には背景色が変更され、
+transitionプロパティにより変更がスムーズになるようにした。
+
+全てのcssのulタグ
+hover
+.main-nav クラス内の li にデフォルトとホバー時の色を設定しホバー時には文字の色が変更され、
+transition により変更がスムーズになるようにした。
